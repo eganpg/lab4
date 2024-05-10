@@ -1,3 +1,24 @@
+/**
+ * Employee Management System using Binary Search Tree
+ * 
+ * This program implements an employee management system using a binary search tree
+ * to store and manipulate employee data. It provides functionalities for adding,
+ * removing, searching for, and displaying employee information based on their ID numbers.
+ * 
+ * The system uses the EmployeeInfo class to represent individual employee data,
+ * including the employee's ID and name. The BinarySearchTree class is utilized to
+ * manage these EmployeeInfo instances in a binary search tree structure, allowing
+ * efficient data management operations such as insertion, deletion, and search.
+ * 
+ * The user interacts with the system through a console-based menu that offers options
+ * to add a new employee, remove an existing employee, search for an employee by ID,
+ * display all employees, and exit the program. Exception handling is incorporated to
+ * manage scenarios where operations may fail, such as removing a non-existent employee.
+ * 
+ * Detailed comments within the code explain the functionality of each segment, ensuring
+ * readability and maintainability.
+ */
+
 
 #include <iostream>
 #include "BinarySearchTree.h"
